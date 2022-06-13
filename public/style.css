@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#image {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background: url('/bg.png');
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1920px) {
+    #image {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        background: url('/bg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+#content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#info p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+#footer p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 1px;
+    padding: 9px;
+}
+
+#players {
+    padding: 10px;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    
+    background-color: #0000006b;
+}
+
+#players p {
+    margin: 0;
+    padding: 2px;
+}

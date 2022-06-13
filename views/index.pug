@@ -1,0 +1,22 @@
+extends template.pug
+
+block styles
+    link(rel="stylesheet", href="style.css")
+
+block content
+    #image
+        #content
+            #info
+                if online
+                    h1 Minecraft Server running on #{ver} version
+                    h2 MOTD: #{motd}
+                    p Players: #{players} / #{maxplayers}
+                    p IP: #{serverinfo.ip}:#{serverinfo.port}
+                else
+                    h1 Minecraft Server is offline.
+        if online 
+            #players
+                if players > 0
+                    p Players online
+                    each player in playing 
+                        p #{player.name} 
