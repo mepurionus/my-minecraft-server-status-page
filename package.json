@@ -1,6 +1,6 @@
 {
   "name": "minecraft-status-webpage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minecraft Status page for my Minecraft Server for friends",
   "main": "app.js",
   "scripts": {
