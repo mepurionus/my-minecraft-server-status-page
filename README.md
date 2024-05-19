@@ -1,14 +1,17 @@
 ## Minecraft Server Status for my own server
 #### Ver 1.0.1
 
-### Added
-- App will update itself upon restart
+#### New stuff
+- App will update itself upon Docker container restart
+- Minimum files needed to setup
 
-### Since now, you'll need minimum of 2 files
-#### Dockerfile
-#### .env
 
-### Additionally you may want to change background
-add: /setup/public/bg.png
+Setup folder
 
-### Files above will be found in folder "setup" after you download the app and are no longer avaliable fully in a repo.
+| File       | What does it do                                                 |
+| ---------- | --------------------------------------------------------------- |
+| Dockerfile | Will copy your files to Docker Container and prepare everything |
+| .env       | Stores your Minecraft server IP address (internal and external) |
+| /public    | Stores your background and style                                |
+
+

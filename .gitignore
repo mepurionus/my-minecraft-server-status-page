@@ -1,6 +1,9 @@
 # folders
 /node_modules
 /dist
+/.obsidian
+/.git
+
 
 # files
 .env
